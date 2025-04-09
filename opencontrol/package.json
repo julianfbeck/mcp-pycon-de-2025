@@ -2,17 +2,15 @@
   "name": "opencontrol",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.2.9",
-    "@hono/node-server": "^1.14.0",
-    "dotenv": "^16.4.7",
     "hono": "^4.7.6",
-    "opencontrol": "^0.0.16"
+    "opencontrol": "^0.0.16",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@types/node": "^20.11.17",
-    "tsx": "^4.7.1"
+    "@types/bun": "latest"
   }
 }
