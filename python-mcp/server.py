@@ -185,7 +185,5 @@ def query_database(sql_query: str) -> List[Dict[str, Any]]:
 
 
 
-
-
 if __name__ == "__main__":
     mcp.run()
